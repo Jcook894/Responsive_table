@@ -10,3 +10,9 @@ th{
 .comp-card{
   border: 1px solid black;
 }
+
+.img-center{
+  margin: auto;
+  width: 100%;
+
+}
