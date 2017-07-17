@@ -10,6 +10,11 @@ th{
   text-align: center;
 }
 
+button a{
+  color: white;
+  text-decoration: none;
+}
+
 .first-col{
   text-align: center;
   width: 25%;
@@ -37,7 +42,7 @@ th{
   padding-top: 20px;
   padding-bottom: 20px;
   margin: auto;
-  width: 200px;
+  width: 150px;
 
 }
 
@@ -46,6 +51,22 @@ th{
   body{
     font-size: 12px;
   }
+
+  .img-center{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 75px;
+
+  }
+
+  .button-group{
+   margin:0px auto;
+    padding-bottom: 50px;
+    width: 85px;
+
+  }
+
 
 
 .table-padding{
