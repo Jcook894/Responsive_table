@@ -10,29 +10,52 @@ th{
   text-align: center;
 }
 
+.first-col{
+  text-align: center;
+  width: 25%;
+}
 
+.last-col{
+  width: 15%;
+}
+
+
+.button-group{
+  padding-bottom: 50px;
+}
 
 .table-padding{
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 
 .img-center{
   padding-top: 20px;
+  padding-bottom: 20px;
   margin: auto;
   width: 100%;
+
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 756px) {
 
   body{
-    font-size: 1em;
+    font-size: 12px;
   }
 
 
 .table-padding{
   padding-left: 0px;
   padding-right: 0px;
+  }
+
+  .first-col{
+    text-align: center;
+    width: 0;
+  }
+
+  .last-col{
+    width: 0;
   }
 }
