@@ -16,12 +16,15 @@ th{
 }
 
 .last-col{
-  width: 15%;
+  width: 25%;
 }
 
 
 .button-group{
+ margin:0px auto;
   padding-bottom: 50px;
+  width: 175px;
+
 }
 
 .table-padding{
@@ -34,7 +37,7 @@ th{
   padding-top: 20px;
   padding-bottom: 20px;
   margin: auto;
-  width: 100%;
+  width: 200px;
 
 }
 
