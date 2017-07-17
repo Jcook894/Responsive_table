@@ -1,3 +1,7 @@
+body{
+  font-size: 2em;
+}
+
 .value-lvl{
   text-align: center;
 }
@@ -7,18 +11,25 @@ th{
 }
 
 
+
 .table-padding{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 
 .img-center{
+  padding-top: 20px;
   margin: auto;
   width: 100%;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  body{
+    font-size: 1em;
+  }
+
 
 .table-padding{
   padding-left: 0px;
